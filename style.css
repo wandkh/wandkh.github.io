@@ -193,3 +193,14 @@ blockquote {
   border-radius: 0 var(--radius) var(--radius) 0;
   color: var(--muted);
 }
+
+figure img {
+  display: block;
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
